@@ -1,0 +1,1 @@
+# Tic Tac Toe in Java with minmax function simulate AI.
