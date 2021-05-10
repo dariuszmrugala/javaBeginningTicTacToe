@@ -15,7 +15,8 @@ public class Main {
 		System.out.println("\nHas O won? " + boardgame.hasPlayerWon(TictactoeSymbols.O));
 		System.out.println("\nHas X won? " + boardgame.hasPlayerWon(TictactoeSymbols.X));
 		
-		TicTacToeFrameGui my_TicTacToeWindow = new TicTacToeFrameGui();
+		TicTacToeFrameGui my_TicTacToeWindow = new TicTacToeFrameGui(boardgame);
+		my_TicTacToeWindow.setBoard(boardgame);
 		my_TicTacToeWindow.setVisible(true);
 		
 	}
